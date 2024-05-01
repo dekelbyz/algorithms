@@ -31,6 +31,8 @@ class LinkedList:
     # less crap than the solution they suggested
     # more readable 
     def bubble_sort(self):
+        if self.length < 2:
+            return
         for _ in range(self.length - 1, 0, -1):
             node = self.head
             while node.next:

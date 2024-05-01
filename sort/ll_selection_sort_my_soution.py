@@ -28,6 +28,8 @@ class LinkedList:
         self.length += 1
 
     def selection_sort(self):
+        if self.length < 2:
+            return
         node = self.head
 
         while node:
