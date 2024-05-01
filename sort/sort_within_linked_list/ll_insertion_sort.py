@@ -27,10 +27,6 @@ class LinkedList:
             self.tail = new_node
         self.length += 1
 
-    # finally did it. 
-    # not only that i've done it but i've switched the 
-    # whole node instead of only the values
-
     def insertion_sort(self):
         if self.length < 2:
             return
