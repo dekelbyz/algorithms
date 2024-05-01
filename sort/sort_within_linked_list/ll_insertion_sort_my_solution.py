@@ -55,10 +55,16 @@ class LinkedList:
             else:
                 prev = current
                 current = prev.next
-                
+
         temp = self.head
         self.head = self.head.next
         temp.next = None
+
+        # track tail
+        self.tail = self.head
+        while self.tail.next:
+            self.tail = self.tail.next
+
 
 
  
