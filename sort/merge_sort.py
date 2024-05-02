@@ -18,13 +18,13 @@ ADDITION: compared to other sorting algorithms such as the ones mentioned above,
 this is by far the most efficient one introduced to us so far (in terms of time complexity)
 the other ones operate with time complexity of o(n ^ 2). 
 
-goes without saying, it is the worst one to use in terms of space complexity.
-as mentioned above, with the other sorting algorithms we operate on the original list,
+goes without saying - it is the worst one to use in terms of space complexity.
+as mentioned above: with the other sorting algorithms we operate on the original list,
 without having to manifest a list for every element of that list -
 which makes it o(1) in space complexity.
 
-but honestly? FUCK SPACE. time is passing by - even right now while I write this unecessary
-description on 7AM that probably no one will ever read (that's a shame tbh) 
+but honestly? FUCK SPACE. time is passing by - even right now as I'm writing this unecessary
+description at 7AM that probably no one will ever read (that's a shame tbh) 
 instead of sleeping. I can never get this time back. The space will be once
 again available for me right after the execution
 
