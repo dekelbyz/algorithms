@@ -14,6 +14,10 @@ we do not operate on the original list, but rather creating a new list
 for each item featured in the original list, which brings it up to a 
 total space complexity of o(n)
 
+ADDITION: compared to other sorting algorithms such as the ones mentioned above,
+this is by far the most efficient one introduced to us so far (in terms of time complexity)
+the other ones operate with time complexity of o(n ^ 2). 
+
 '''
 
 def merge(array1, array2):
