@@ -18,6 +18,15 @@ ADDITION: compared to other sorting algorithms such as the ones mentioned above,
 this is by far the most efficient one introduced to us so far (in terms of time complexity)
 the other ones operate with time complexity of o(n ^ 2). 
 
+goes without saying, it is the worst one to use in terms of space complexity.
+as mentioned above, with the other sorting algorithms we operate on the original list
+which makes it o(1) in space complexity.
+
+but honestly? fuck space. time is passing by even right now when I write this message on 7AM
+instead of sleeping. I can never get this time back. The space will be once
+again available for me right after the execution
+
+FUCK SPACE!!!
 '''
 
 def merge(array1, array2):
