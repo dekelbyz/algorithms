@@ -1,13 +1,13 @@
 '''
-MERGE SORT
+MERGE SORT:
 TIME COMPLEXITY: o(n log n)
 SPACE COMPLEXITY: o(n)
 
-explaination:  
+EXPLANATION:  
 TIME: it takes o(log n) time complexity to 
 break the list apart, although putting it back together 
 takes o(n) since we have to iterate through each item of that list
-which makes it in total o (n log n) 
+which makes it a total of o(n log n) 
 
 SPACE: unlike other sorting algorithms (bubble, selection, insertion etc), 
 we do not operate on the original list, but rather creating a new list 
@@ -19,10 +19,11 @@ this is by far the most efficient one introduced to us so far (in terms of time 
 the other ones operate with time complexity of o(n ^ 2). 
 
 goes without saying, it is the worst one to use in terms of space complexity.
-as mentioned above, with the other sorting algorithms we operate on the original list
+as mentioned above, with the other sorting algorithms we operate on the original list,
+without having to manifest a list for every element of that list -
 which makes it o(1) in space complexity.
 
-but honestly? fuck space. time is passing by even right now when I write this message on 7AM
+but honestly? FUCK SPACE. time is passing by even right now when I write this message on 7AM
 instead of sleeping. I can never get this time back. The space will be once
 again available for me right after the execution
 
