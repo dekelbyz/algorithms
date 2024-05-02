@@ -67,25 +67,6 @@ class LinkedList:
 
 
 
- 
-                
-
-            
-
-
-
-        
-
-    # WRITE INSERTION_SORT METHOD HERE #
-    #                                  #
-    #                                  #
-    #                                  #
-    #                                  #
-    ####################################
-
-
-
-
 
 my_linked_list = LinkedList(4)
 my_linked_list.append(2)
